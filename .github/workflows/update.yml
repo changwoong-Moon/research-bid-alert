@@ -1,0 +1,54 @@
+name: 연구용역 대시보드 갱신
+
+on:
+  schedule:
+    - cron: '0 23 * * *'   # 한국시간 아침 08:00 (UTC 23:00)
+    - cron: '0 4 * * *'    # 한국시간 오후 13:00 (UTC 04:00)
+  workflow_dispatch:        # Actions 탭에서 "Run workflow" 버튼으로 수동 갱신
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 저장소 내려받기
+        uses: actions/checkout@v4
+
+      - name: 파이썬 준비
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 공고 수집 및 대시보드 생성
+        env:
+          SERVICE_KEY: ${{ secrets.SERVICE_KEY }}
+        run: |
+          python narajangteo.py
+          mkdir -p site
+          cp research_bids.html site/index.html
+
+      - name: Pages 설정
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: 결과물 업로드
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: 웹페이지 발행
+        id: deployment
+        uses: actions/deploy-pages@v4
