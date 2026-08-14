@@ -20,7 +20,7 @@ concurrency:
 jobs:
   notify:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
     steps:
       - name: 저장소 내려받기
         uses: actions/checkout@v4
@@ -36,7 +36,19 @@ jobs:
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           NOTIFY_FORCE: ${{ (github.event_name == 'workflow_dispatch' && inputs.force) && '1' || '' }}
-        run: python notify.py
+        # 나라장터 API가 오전에 간헐적으로 매우 느려져 워크플로 차원에서도 재시도
+        run: |
+          for attempt in 1 2 3; do
+            if python notify.py; then
+              exit 0
+            fi
+            if [ "$attempt" -lt 3 ]; then
+              echo "::warning::시도 $attempt 실패 — 3분 후 재시도합니다"
+              sleep 180
+            fi
+          done
+          echo "3회 모두 실패했습니다. 로그를 확인하세요."
+          exit 1
 
       - name: 안내 기록 저장
         run: |
