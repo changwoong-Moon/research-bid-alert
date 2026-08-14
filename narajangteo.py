@@ -65,8 +65,8 @@ OPERATION = "getBidPblancListInfoServcPPSSrch"
 NUM_OF_ROWS = 999      # 한 페이지 최대 건수 (공식 가이드 샘플에서 999 사용 확인)
 MAX_PAGES = 30         # 페이지네이션 안전 상한 (999 x 30 = 약 3만 건)
 CHUNK_DAYS = 30        # 조회기간은 1회 최대 1개월 제한(공식 가이드) → 30일 단위 분할
-HTTP_TIMEOUT = 30      # 초
-MAX_RETRIES = 3        # 네트워크 오류 시 재시도 횟수 (지수 백오프)
+HTTP_TIMEOUT = 60      # 초 (999건 페이지는 응답이 수십 초 걸리는 경우가 있음)
+MAX_RETRIES = 4        # 네트워크 오류 시 재시도 횟수 (지수 백오프)
 
 KST = datetime.timezone(datetime.timedelta(hours=9))  # Actions 러너는 UTC이므로 명시적 KST 사용
 
