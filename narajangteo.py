@@ -47,7 +47,7 @@ EXCLUDE_KEYWORDS = [
 ]
 
 # 수집 기간: 오늘부터 거슬러 올라갈 일수 (한국시간 기준)
-DAYS_BACK = 5
+DAYS_BACK = 20
 
 # 생성할 결과 파일 이름 (GitHub Actions 워크플로가 이 이름을 사용하므로
 # 바꾸면 update.yml의 cp 명령도 같이 바꿔야 합니다)
@@ -398,6 +398,7 @@ def prepare_bids(items, now):
             "ntce_org": str(item.get("ntceInsttNm") or "").strip(),
             "dmnd_org": str(item.get("dminsttNm") or "").strip(),
             "posted": posted_dt.strftime("%Y-%m-%d") if posted_dt else "",
+            "posted_iso": posted_dt.isoformat() if posted_dt else "",
             "close_dt": close_dt,
             "close_str": close_dt.strftime("%Y-%m-%d %H:%M") if close_dt else "미정",
             "closed": closed,
@@ -442,6 +443,12 @@ header h1{font-size:1.4rem; margin:0 0 6px}
   border:1px solid var(--border); border-radius:10px; background:var(--card);
 }
 .search input:focus{outline:2px solid var(--accent); border-color:var(--accent)}
+.sort{display:flex; gap:6px; margin-top:10px}
+.sort button{
+  flex:1; padding:8px 4px; font-size:.82rem; color:var(--muted); cursor:pointer;
+  background:var(--card); border:1px solid var(--border); border-radius:999px;
+}
+.sort button.on{background:var(--accent); border-color:var(--accent); color:#fff; font-weight:700}
 .card{
   background:var(--card); border:1px solid var(--border); border-radius:12px;
   padding:14px 16px; margin-top:12px;
@@ -484,6 +491,11 @@ footer{margin-top:32px; font-size:.75rem; color:var(--muted); line-height:1.7}
     <div class="search">
       <input id="q" type="search" placeholder="공고명·기관명으로 바로 검색" autocomplete="off" aria-label="공고 검색">
     </div>
+    <div class="sort" role="group" aria-label="정렬 방식">
+      <button type="button" data-sort="close" class="on">마감 임박순</button>
+      <button type="button" data-sort="new">최신 게시순</button>
+      <button type="button" data-sort="old">오래된 순</button>
+    </div>
   </header>
   <main id="list">
 __CONTENT__
@@ -522,6 +534,33 @@ __CONTENT__
     var dday = Math.round((closeDay - todayK) / 86400000);
     badge.textContent = dday <= 0 ? 'D-DAY' : 'D-' + dday;
     badge.className = dday <= 3 ? 'badge urgent' : 'badge';
+  });
+
+  // 정렬: 서버가 렌더링한 순서(마감 임박순)를 기준으로 게시일 오름/내림 재배열
+  var list = document.getElementById('list');
+  var initialOrder = cards.slice();
+  function applySort(mode) {
+    var arr = initialOrder.slice();
+    if (mode === 'new' || mode === 'old') {
+      arr.sort(function (a, b) {
+        var pa = a.getAttribute('data-posted') || '';
+        var pb = b.getAttribute('data-posted') || '';
+        if (pa === pb) return 0;
+        if (!pa) return 1;   // 게시일 정보가 없는 공고는 뒤로
+        if (!pb) return -1;
+        if (mode === 'new') return pa < pb ? 1 : -1;
+        return pa < pb ? -1 : 1;
+      });
+    }
+    arr.forEach(function (card) { list.insertBefore(card, noResult); });
+  }
+  var sortButtons = Array.prototype.slice.call(document.querySelectorAll('.sort button'));
+  sortButtons.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      sortButtons.forEach(function (b) { b.className = ''; });
+      btn.className = 'on';
+      applySort(btn.getAttribute('data-sort'));
+    });
   });
 
   if (!input) return;
@@ -571,7 +610,7 @@ def build_html(bids, now):
         card_class = "card closed" if bid["closed"] else "card"
         close_iso = bid["close_dt"].isoformat() if bid["close_dt"] else ""
         cards.append(
-            '    <article class="%s" data-search="%s" data-close="%s">\n'
+            '    <article class="%s" data-search="%s" data-close="%s" data-posted="%s">\n'
             '      <div class="card-top">%s%s</div>\n'
             '      <h2><a href="%s" target="_blank" rel="noopener noreferrer">%s</a></h2>\n'
             '      <div class="org">%s</div>\n'
@@ -580,7 +619,8 @@ def build_html(bids, now):
             '        <div><span>예산</span><b>%s</b></div>\n'
             '      </div>\n'
             '    </article>' % (
-                card_class, search_blob, close_iso, _badge_html(bid), posted,
+                card_class, search_blob, close_iso, bid["posted_iso"],
+                _badge_html(bid), posted,
                 esc(bid["url"], quote=True), esc(bid["name"]),
                 org_line, esc(bid["close_str"]), esc(bid["amount"])))
 
