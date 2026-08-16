@@ -1,24 +1,38 @@
-name: 연구용역 대시보드 갱신
+name: 연구용역 알리미 갱신
 
+# 하루 3회 실행 (한국시간). 정각은 GitHub 혼잡으로 크게 늦어지므로 10분에 맞춤.
+#  - 08:10  아침 갱신 + 하루 1통 안내 메일
+#  - 10:10  아침 수집이 실패했을 때의 재시도 (성공하면 그때 안내 메일)
+#  - 13:10  오후 갱신 (+ 아침부터 계속 실패면 실패 알림 1통)
 on:
   schedule:
-    - cron: '0 23 * * *'   # 한국시간 아침 08:00 (UTC 23:00)
-    - cron: '0 4 * * *'    # 한국시간 오후 13:00 (UTC 04:00)
-  workflow_dispatch:        # Actions 탭에서 "Run workflow" 버튼으로 수동 갱신
+    - cron: '10 23 * * *'   # 08:10 KST (UTC 23:10, 전날)
+    - cron: '10 1 * * *'    # 10:10 KST (UTC 01:10)
+    - cron: '10 4 * * *'    # 13:10 KST (UTC 04:10)
+  workflow_dispatch:        # Actions 탭에서 "Run workflow" 버튼으로 수동 실행
+    inputs:
+      full_refresh:
+        description: '최근 20일치 전량 다시 수집 (키워드를 바꾼 뒤 한 번 켜세요)'
+        type: boolean
+        default: false
+      force_mail:
+        description: '새 공고가 없어도 테스트 메일 발송'
+        type: boolean
+        default: false
 
 permissions:
-  contents: read
-  pages: write
+  contents: write           # data/ 저장분·안내 기록 커밋용
+  pages: write              # 대시보드 발행
   id-token: write
 
 concurrency:
-  group: pages
-  cancel-in-progress: true
+  group: research-bid-alert
+  cancel-in-progress: false  # 겹치면 취소하지 말고 차례로 실행
 
 jobs:
-  build-and-deploy:
+  update:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 40
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -31,13 +45,37 @@ jobs:
         with:
           python-version: '3.12'
 
+      # 수집이 실패해도 저장분(data/bids.json)으로 대시보드를 만들고 계속 진행합니다.
+      # (저장분조차 없는 맨 첫 실행에서만 여기서 멈춤)
       - name: 공고 수집 및 대시보드 생성
         env:
           SERVICE_KEY: ${{ secrets.SERVICE_KEY }}
+          FULL_REFRESH: ${{ (github.event_name == 'workflow_dispatch' && inputs.full_refresh) && '1' || '' }}
         run: |
           python narajangteo.py
           mkdir -p site
           cp research_bids.html site/index.html
+
+      - name: 메일 알림
+        id: mail
+        continue-on-error: true   # 메일이 실패해도 저장·발행은 진행 (마지막 단계에서 보고)
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          NOTIFY_FORCE: ${{ (github.event_name == 'workflow_dispatch' && inputs.force_mail) && '1' || '' }}
+        run: python notify.py
+
+      - name: 저장분·안내 기록 저장
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "저장할 변경 없음"
+          else
+            git commit -m "자동 갱신: 공고 저장분·안내 기록"
+            git push || (git pull --rebase origin main && git push)
+          fi
 
       - name: Pages 설정
         uses: actions/configure-pages@v5
@@ -52,3 +90,18 @@ jobs:
       - name: 웹페이지 발행
         id: deployment
         uses: actions/deploy-pages@v4
+
+      # 대시보드는 이미 발행됐지만, 수집이나 메일이 실패했으면 실행을 빨간색으로 남겨 알아볼 수 있게 함
+      - name: 실행 결과 보고
+        run: |
+          fail=0
+          if [ -f fetch_failed ]; then
+            echo "::error::나라장터 수집 실패 — 대시보드는 저장분으로 발행했습니다 (사유는 '공고 수집' 단계 로그)"
+            fail=1
+          fi
+          if [ "${{ steps.mail.outcome }}" = "failure" ]; then
+            echo "::error::메일 발송 단계 실패 — '메일 알림' 단계 로그를 확인하세요"
+            fail=1
+          fi
+          if [ "$fail" = "0" ]; then echo "정상 완료"; fi
+          exit $fail
