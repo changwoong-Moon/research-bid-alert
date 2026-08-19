@@ -1,13 +1,45 @@
 {
  "meta": {
-  "last_attempt": "2026-08-19T11:22:23+09:00",
-  "last_success": "2026-08-19T11:22:23+09:00",
+  "last_attempt": "2026-08-19T13:50:21+09:00",
+  "last_success": "2026-08-19T13:50:21+09:00",
   "last_attempt_ok": true,
   "last_error": "",
-  "fetch_window": "2026-08-16 00:00 ~ 2026-08-19 11:22",
+  "fetch_window": "2026-08-16 00:00 ~ 2026-08-19 13:50",
   "last_error_at": "2026-08-18T11:19:48+09:00"
  },
  "items": [
+  {
+   "bidNtceNo": "R26BK01687953",
+   "bidNtceOrd": "000",
+   "bidNtceNm": "정책환경 변화에 따른 청소년 담배제품 노출환경 및 유인요인 분석을 통한 담배규제정책 개선방안 연구",
+   "ntceKindNm": "등록공고",
+   "ntceInsttNm": "한국건강증진개발원",
+   "dminsttNm": "한국건강증진개발원",
+   "bidNtceDt": "2026-08-19 13:11:07",
+   "rgstDt": "2026-08-19 13:11:07",
+   "bidClseDt": "2026-09-01 10:00:00",
+   "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01687953&bidPbancOrd=000",
+   "bidNtceUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01687953&bidPbancOrd=000",
+   "asignBdgtAmt": "80000000",
+   "presmptPrce": "72727273",
+   "_first_seen": "2026-08-19"
+  },
+  {
+   "bidNtceNo": "R26BK01687881",
+   "bidNtceOrd": "000",
+   "bidNtceNm": "2026학년도 수업혁신사례연구대회 우수 입상자 해외 연수 운영",
+   "ntceKindNm": "등록공고",
+   "ntceInsttNm": "한국교육과정평가원",
+   "dminsttNm": "한국교육과정평가원",
+   "bidNtceDt": "2026-08-19 11:27:48",
+   "rgstDt": "2026-08-19 11:27:48",
+   "bidClseDt": "2026-09-29 11:00:00",
+   "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01687881&bidPbancOrd=000",
+   "bidNtceUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01687881&bidPbancOrd=000",
+   "asignBdgtAmt": "600000000",
+   "presmptPrce": "545454545",
+   "_first_seen": "2026-08-19"
+  },
   {
    "bidNtceNo": "R26BK01687858",
    "bidNtceOrd": "000",
@@ -22,6 +54,22 @@
    "bidNtceUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01687858&bidPbancOrd=000",
    "asignBdgtAmt": "546359000",
    "presmptPrce": "496690000",
+   "_first_seen": "2026-08-19"
+  },
+  {
+   "bidNtceNo": "R26BK01687788",
+   "bidNtceOrd": "000",
+   "bidNtceNm": "국립중앙도서관 개인정보 영향평가 및 개인정보 제도개선 컨설팅",
+   "ntceKindNm": "재공고",
+   "ntceInsttNm": "조달청 서울지방조달청",
+   "dminsttNm": "문화체육관광부 국립중앙도서관",
+   "bidNtceDt": "2026-08-19 13:12:19",
+   "rgstDt": "2026-08-19 13:12:19",
+   "bidClseDt": "2026-09-01 10:00:00",
+   "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01687788&bidPbancOrd=000",
+   "bidNtceUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01687788&bidPbancOrd=000",
+   "asignBdgtAmt": "114285680",
+   "presmptPrce": "102727273",
    "_first_seen": "2026-08-19"
   },
   {
@@ -185,6 +233,22 @@
    "_first_seen": "2026-08-19"
   },
   {
+   "bidNtceNo": "R26BK01687253",
+   "bidNtceOrd": "000",
+   "bidNtceNm": "AI심화시대 정보주체 관점에서의 개인정보 기능 수행체계 효율화 전략 연구",
+   "ntceKindNm": "등록공고",
+   "ntceInsttNm": "개인정보보호위원회",
+   "dminsttNm": "개인정보보호위원회",
+   "bidNtceDt": "2026-08-19 13:13:03",
+   "rgstDt": "2026-08-19 13:13:03",
+   "bidClseDt": "2026-08-31 10:00:00",
+   "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01687253&bidPbancOrd=000",
+   "bidNtceUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01687253&bidPbancOrd=000",
+   "asignBdgtAmt": "50000000",
+   "presmptPrce": "45454545",
+   "_first_seen": "2026-08-19"
+  },
+  {
    "bidNtceNo": "R26BK01687215",
    "bidNtceOrd": "000",
    "bidNtceNm": "2026년도 언론중재위원회 이용만족도조사 용역",
@@ -198,6 +262,22 @@
    "bidNtceUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01687215&bidPbancOrd=000",
    "asignBdgtAmt": "26800000",
    "presmptPrce": "24363636",
+   "_first_seen": "2026-08-19"
+  },
+  {
+   "bidNtceNo": "R26BK01686474",
+   "bidNtceOrd": "000",
+   "bidNtceNm": "2026년 공간재구조화 사업타당성 평가 연구용역",
+   "ntceKindNm": "등록공고",
+   "ntceInsttNm": "강원특별자치도교육청",
+   "dminsttNm": "강원특별자치도교육청",
+   "bidNtceDt": "2026-08-19 12:59:16",
+   "rgstDt": "2026-08-19 12:59:16",
+   "bidClseDt": "2026-08-31 15:00:00",
+   "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01686474&bidPbancOrd=000",
+   "bidNtceUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01686474&bidPbancOrd=000",
+   "asignBdgtAmt": "128000000",
+   "presmptPrce": "116363636",
    "_first_seen": "2026-08-19"
   },
   {
