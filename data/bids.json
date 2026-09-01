@@ -1,11 +1,11 @@
 {
  "meta": {
-  "last_attempt": "2026-09-01T10:47:27+09:00",
+  "last_attempt": "2026-09-01T15:12:54+09:00",
   "last_success": "2026-09-01T10:47:27+09:00",
-  "last_attempt_ok": true,
-  "last_error": "",
+  "last_attempt_ok": false,
+  "last_error": "네트워크 오류로 API 호출에 3회 모두 실패했습니다: <urlopen error [Errno 110] Connection timed out>",
   "fetch_window": "2026-08-29 00:00 ~ 2026-09-01 10:47",
-  "last_error_at": "2026-08-31T10:20:49+09:00"
+  "last_error_at": "2026-09-01T15:12:54+09:00"
  },
  "items": [
   {
