@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_attempt": "2026-09-12T17:37:13+09:00",
-  "last_success": "2026-09-12T17:37:13+09:00",
+  "last_attempt": "2026-09-13T09:54:56+09:00",
+  "last_success": "2026-09-13T09:54:56+09:00",
   "last_attempt_ok": true,
   "last_error": "",
-  "fetch_window": "2026-09-09 00:00 ~ 2026-09-12 17:37",
+  "fetch_window": "2026-09-10 00:00 ~ 2026-09-13 09:54",
   "last_error_at": "2026-09-12T14:42:08+09:00"
  },
  "items": [
@@ -12226,22 +12226,6 @@
    "asignBdgtAmt": "165000000",
    "presmptPrce": "150000000",
    "_first_seen": "2026-08-16"
-  },
-  {
-   "bidNtceNo": "R26BK01693862",
-   "bidNtceOrd": "000",
-   "bidNtceNm": "제1차 기초학력 보장 종합계획(2023-2027) 성과분석 위탁연구",
-   "ntceKindNm": "등록공고",
-   "ntceInsttNm": "한국교육과정평가원",
-   "dminsttNm": "한국교육과정평가원",
-   "bidNtceDt": "2026-08-23 20:42:26",
-   "rgstDt": "2026-08-23 20:42:26",
-   "bidClseDt": "2026-08-24 11:30:00",
-   "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01693862&bidPbancOrd=000",
-   "bidNtceUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01693862&bidPbancOrd=000",
-   "asignBdgtAmt": "40000000",
-   "presmptPrce": "36363636",
-   "_first_seen": "2026-08-24"
   }
  ]
 }
