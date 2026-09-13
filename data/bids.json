@@ -1,13 +1,29 @@
 {
  "meta": {
-  "last_attempt": "2026-09-13T09:54:56+09:00",
-  "last_success": "2026-09-13T09:54:56+09:00",
+  "last_attempt": "2026-09-13T15:03:11+09:00",
+  "last_success": "2026-09-13T15:03:11+09:00",
   "last_attempt_ok": true,
   "last_error": "",
-  "fetch_window": "2026-09-10 00:00 ~ 2026-09-13 09:54",
+  "fetch_window": "2026-09-10 00:00 ~ 2026-09-13 15:03",
   "last_error_at": "2026-09-12T14:42:08+09:00"
  },
  "items": [
+  {
+   "bidNtceNo": "R26BK01726455",
+   "bidNtceOrd": "000",
+   "bidNtceNm": "2026학년도 글로컬대학사업 글로컬 셀-GRP(연구주제탐색형) 글로벌 현장탐방",
+   "ntceKindNm": "등록공고",
+   "ntceInsttNm": "국립창원대학교",
+   "dminsttNm": "국립창원대학교",
+   "bidNtceDt": "2026-09-13 13:24:53",
+   "rgstDt": "2026-09-13 13:24:53",
+   "bidClseDt": "2026-09-29 10:00:00",
+   "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01726455&bidPbancOrd=000",
+   "bidNtceUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01726455&bidPbancOrd=000",
+   "asignBdgtAmt": "99720000",
+   "presmptPrce": "90654545",
+   "_first_seen": "2026-09-13"
+  },
   {
    "bidNtceNo": "R26BK01726327",
    "bidNtceOrd": "000",
