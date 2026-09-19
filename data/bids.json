@@ -1,13 +1,45 @@
 {
  "meta": {
-  "last_attempt": "2026-09-18T17:59:02+09:00",
-  "last_success": "2026-09-18T17:59:02+09:00",
+  "last_attempt": "2026-09-19T10:07:52+09:00",
+  "last_success": "2026-09-19T10:07:52+09:00",
   "last_attempt_ok": true,
   "last_error": "",
-  "fetch_window": "2026-09-15 00:00 ~ 2026-09-18 17:59",
+  "fetch_window": "2026-09-16 00:00 ~ 2026-09-19 10:07",
   "last_error_at": "2026-09-18T14:51:05+09:00"
  },
  "items": [
+  {
+   "bidNtceNo": "R26BK01737598",
+   "bidNtceOrd": "000",
+   "bidNtceNm": "2026 진주시 문화사업가 시장분석 및 컨설팅 운영 용역",
+   "ntceKindNm": "등록공고",
+   "ntceInsttNm": "경상남도 진주시",
+   "dminsttNm": "경상남도 진주시",
+   "bidNtceDt": "2026-09-18 18:22:29",
+   "rgstDt": "2026-09-18 18:22:29",
+   "bidClseDt": "2026-09-29 10:00:00",
+   "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01737598&bidPbancOrd=000",
+   "bidNtceUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01737598&bidPbancOrd=000",
+   "asignBdgtAmt": "148800000",
+   "presmptPrce": "135272727",
+   "_first_seen": "2026-09-19"
+  },
+  {
+   "bidNtceNo": "R26BK01737558",
+   "bidNtceOrd": "000",
+   "bidNtceNm": "한국원자력연구원 전담특허사무소 용역",
+   "ntceKindNm": "등록공고",
+   "ntceInsttNm": "한국원자력연구원",
+   "dminsttNm": "한국원자력연구원",
+   "bidNtceDt": "2026-09-18 18:03:40",
+   "rgstDt": "2026-09-18 18:03:40",
+   "bidClseDt": "2026-11-02 11:00:00",
+   "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01737558&bidPbancOrd=000",
+   "bidNtceUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01737558&bidPbancOrd=000",
+   "asignBdgtAmt": "3880753632",
+   "presmptPrce": "3527957847",
+   "_first_seen": "2026-09-19"
+  },
   {
    "bidNtceNo": "R26BK01737535",
    "bidNtceOrd": "000",
