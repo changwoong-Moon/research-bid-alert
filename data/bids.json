@@ -1,13 +1,29 @@
 {
  "meta": {
-  "last_attempt": "2026-09-19T14:46:53+09:00",
-  "last_success": "2026-09-19T14:46:53+09:00",
+  "last_attempt": "2026-09-19T17:46:51+09:00",
+  "last_success": "2026-09-19T17:46:51+09:00",
   "last_attempt_ok": true,
   "last_error": "",
-  "fetch_window": "2026-09-16 00:00 ~ 2026-09-19 14:46",
+  "fetch_window": "2026-09-16 00:00 ~ 2026-09-19 17:46",
   "last_error_at": "2026-09-18T14:51:05+09:00"
  },
  "items": [
+  {
+   "bidNtceNo": "R26BK01737726",
+   "bidNtceOrd": "001",
+   "bidNtceNm": "2026년 산사태 발생 우려지역 실태조사 및 산사태취약지역 해제조사 용역(2차)",
+   "ntceKindNm": "변경공고",
+   "ntceInsttNm": "대구광역시 군위군",
+   "dminsttNm": "대구광역시 군위군",
+   "bidNtceDt": "2026-09-19 16:31:11",
+   "rgstDt": "2026-09-19 16:31:11",
+   "bidClseDt": "2026-09-30 14:00:00",
+   "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01737726&bidPbancOrd=001",
+   "bidNtceUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01737726&bidPbancOrd=001",
+   "asignBdgtAmt": "64523000",
+   "presmptPrce": "58657273",
+   "_first_seen": "2026-09-19"
+  },
   {
    "bidNtceNo": "R26BK01737697",
    "bidNtceOrd": "000",
