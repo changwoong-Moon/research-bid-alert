@@ -1,13 +1,29 @@
 {
  "meta": {
-  "last_attempt": "2026-10-05T10:53:56+09:00",
-  "last_success": "2026-10-05T10:53:56+09:00",
+  "last_attempt": "2026-10-05T15:56:36+09:00",
+  "last_success": "2026-10-05T15:56:36+09:00",
   "last_attempt_ok": true,
   "last_error": "",
-  "fetch_window": "2026-10-02 00:00 ~ 2026-10-05 10:53",
+  "fetch_window": "2026-10-02 00:00 ~ 2026-10-05 15:56",
   "last_error_at": "2026-09-30T11:02:38+09:00"
  },
  "items": [
+  {
+   "bidNtceNo": "R26BK01754516",
+   "bidNtceOrd": "000",
+   "bidNtceNm": "국제물류진흥지역 기본계획 수립 연구",
+   "ntceKindNm": "등록공고",
+   "ntceInsttNm": "국토교통부",
+   "dminsttNm": "국토교통부",
+   "bidNtceDt": "2026-10-05 13:21:47",
+   "rgstDt": "2026-10-05 13:21:47",
+   "bidClseDt": "2026-10-16 10:00:00",
+   "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01754516&bidPbancOrd=000",
+   "bidNtceUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01754516&bidPbancOrd=000",
+   "asignBdgtAmt": "50000000",
+   "presmptPrce": "45454545",
+   "_first_seen": "2026-10-05"
+  },
   {
    "bidNtceNo": "R26BK01755862",
    "bidNtceOrd": "000",
