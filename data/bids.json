@@ -1,24 +1,40 @@
 {
  "meta": {
-  "last_attempt": "2026-10-16T10:14:46+09:00",
-  "last_success": "2026-10-16T10:14:46+09:00",
+  "last_attempt": "2026-10-16T14:47:04+09:00",
+  "last_success": "2026-10-16T14:47:04+09:00",
   "last_attempt_ok": true,
   "last_error": "",
-  "fetch_window": "2026-10-13 00:00 ~ 2026-10-16 10:14",
+  "fetch_window": "2026-10-13 00:00 ~ 2026-10-16 14:47",
   "last_error_at": "2026-10-15T18:07:39+09:00"
  },
  "items": [
   {
-   "bidNtceNo": "R26BK01774799",
+   "bidNtceNo": "R26BK01775017",
    "bidNtceOrd": "000",
-   "bidNtceNm": "영천 국가산업단지 기본계획 및 타당성 조사 수립 용역",
+   "bidNtceNm": "2026년 연구자 안전 확보를 위한 맞춤형 건강증진 프로그램",
    "ntceKindNm": "등록공고",
+   "ntceInsttNm": "국가보안기술연구소",
+   "dminsttNm": "국가보안기술연구소",
+   "bidNtceDt": "2026-10-16 10:49:37",
+   "rgstDt": "2026-10-16 10:49:37",
+   "bidClseDt": "2026-10-16 18:00:00",
+   "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01775017&bidPbancOrd=000",
+   "bidNtceUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01775017&bidPbancOrd=000",
+   "asignBdgtAmt": "3080000",
+   "presmptPrce": "2800000",
+   "_first_seen": "2026-10-16"
+  },
+  {
+   "bidNtceNo": "R26BK01774799",
+   "bidNtceOrd": "001",
+   "bidNtceNm": "영천 국가산업단지 기본계획 및 타당성 조사 수립 용역",
+   "ntceKindNm": "취소공고",
    "ntceInsttNm": "경상북도 영천시",
    "dminsttNm": "경상북도 영천시",
-   "bidNtceDt": "2026-10-16 10:02:09",
-   "rgstDt": "2026-10-16 10:02:09",
-   "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01774799&bidPbancOrd=000",
-   "bidNtceUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01774799&bidPbancOrd=000",
+   "bidNtceDt": "2026-10-16 11:07:29",
+   "rgstDt": "2026-10-16 11:07:29",
+   "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01774799&bidPbancOrd=001",
+   "bidNtceUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01774799&bidPbancOrd=001",
    "asignBdgtAmt": "488000000",
    "presmptPrce": "443636364",
    "_first_seen": "2026-10-16"
@@ -56,6 +72,22 @@
    "_first_seen": "2026-10-16"
   },
   {
+   "bidNtceNo": "R26BK01774641",
+   "bidNtceOrd": "001",
+   "bidNtceNm": "(가칭)느티울구역 재개발 정비사업 타당성 검토서 작성 용역",
+   "ntceKindNm": "변경공고",
+   "ntceInsttNm": "군포도시공사",
+   "dminsttNm": "군포도시공사",
+   "bidNtceDt": "2026-10-16 10:21:57",
+   "rgstDt": "2026-10-16 10:21:58",
+   "bidClseDt": "2026-10-23 12:00:00",
+   "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01774641&bidPbancOrd=001",
+   "bidNtceUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01774641&bidPbancOrd=001",
+   "asignBdgtAmt": "35000000",
+   "presmptPrce": "31818181",
+   "_first_seen": "2026-10-16"
+  },
+  {
    "bidNtceNo": "R26BK01774506",
    "bidNtceOrd": "000",
    "bidNtceNm": "영천시 생활인구 유입정책 발굴용역-협상에 의한 계약",
@@ -68,6 +100,22 @@
    "bidNtceUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01774506&bidPbancOrd=000",
    "asignBdgtAmt": "50000000",
    "presmptPrce": "45454545",
+   "_first_seen": "2026-10-16"
+  },
+  {
+   "bidNtceNo": "R26BK01774214",
+   "bidNtceOrd": "001",
+   "bidNtceNm": "원주시 하수도정비 기본계획 변경 타당성조사 용역",
+   "ntceKindNm": "취소공고",
+   "ntceInsttNm": "강원특별자치도 원주시",
+   "dminsttNm": "강원특별자치도 원주시 상하수도사업소",
+   "bidNtceDt": "2026-10-16 13:18:48",
+   "rgstDt": "2026-10-16 13:18:48",
+   "bidClseDt": "2026-10-22 14:00:00",
+   "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01774214&bidPbancOrd=001",
+   "bidNtceUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01774214&bidPbancOrd=001",
+   "asignBdgtAmt": "58350000",
+   "presmptPrce": "53045455",
    "_first_seen": "2026-10-16"
   },
   {
@@ -118,6 +166,22 @@
    "_first_seen": "2026-10-16"
   },
   {
+   "bidNtceNo": "R26BK01717891",
+   "bidNtceOrd": "001",
+   "bidNtceNm": "한국식품연구원 홍보관 전면개선[리모델링]",
+   "ntceKindNm": "변경공고",
+   "ntceInsttNm": "한국식품연구원",
+   "dminsttNm": "한국식품연구원",
+   "bidNtceDt": "2026-10-16 13:23:53",
+   "rgstDt": "2026-10-16 13:23:53",
+   "bidClseDt": "2026-10-26 10:00:00",
+   "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01717891&bidPbancOrd=001",
+   "bidNtceUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01717891&bidPbancOrd=001",
+   "asignBdgtAmt": "380000000",
+   "presmptPrce": "345454545",
+   "_first_seen": "2026-10-16"
+  },
+  {
    "bidNtceNo": "R26BK01774242",
    "bidNtceOrd": "000",
    "bidNtceNm": "야구장 인증제도 표준화 기준 제시 연구용역",
@@ -130,22 +194,6 @@
    "bidNtceUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01774242&bidPbancOrd=000",
    "asignBdgtAmt": "200000000",
    "presmptPrce": "181818182",
-   "_first_seen": "2026-10-16"
-  },
-  {
-   "bidNtceNo": "R26BK01774214",
-   "bidNtceOrd": "000",
-   "bidNtceNm": "원주시 하수도정비 기본계획 변경 타당성조사 용역",
-   "ntceKindNm": "등록공고",
-   "ntceInsttNm": "강원특별자치도 원주시",
-   "dminsttNm": "강원특별자치도 원주시 상하수도사업소",
-   "bidNtceDt": "2026-10-15 17:54:24",
-   "rgstDt": "2026-10-15 17:54:24",
-   "bidClseDt": "2026-10-22 14:00:00",
-   "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01774214&bidPbancOrd=000",
-   "bidNtceUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01774214&bidPbancOrd=000",
-   "asignBdgtAmt": "58350000",
-   "presmptPrce": "53045455",
    "_first_seen": "2026-10-16"
   },
   {
