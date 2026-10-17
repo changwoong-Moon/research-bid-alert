@@ -1,13 +1,45 @@
 {
  "meta": {
-  "last_attempt": "2026-10-16T17:59:42+09:00",
-  "last_success": "2026-10-16T17:59:42+09:00",
+  "last_attempt": "2026-10-17T10:15:31+09:00",
+  "last_success": "2026-10-17T10:15:31+09:00",
   "last_attempt_ok": true,
   "last_error": "",
-  "fetch_window": "2026-10-13 00:00 ~ 2026-10-16 17:59",
+  "fetch_window": "2026-10-14 00:00 ~ 2026-10-17 10:15",
   "last_error_at": "2026-10-15T18:07:39+09:00"
  },
  "items": [
+  {
+   "bidNtceNo": "R26BK01776526",
+   "bidNtceOrd": "000",
+   "bidNtceNm": "인도 내 한국기업 전용 산업단지 조성 예비 타당성조사",
+   "ntceKindNm": "등록공고",
+   "ntceInsttNm": "한국해외인프라도시개발지원공사",
+   "dminsttNm": "한국해외인프라도시개발지원공사",
+   "bidNtceDt": "2026-10-16 18:30:36",
+   "rgstDt": "2026-10-16 18:30:36",
+   "bidClseDt": "2026-10-27 10:00:00",
+   "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01776526&bidPbancOrd=000",
+   "bidNtceUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01776526&bidPbancOrd=000",
+   "asignBdgtAmt": "800000000",
+   "presmptPrce": "727272727",
+   "_first_seen": "2026-10-17"
+  },
+  {
+   "bidNtceNo": "R26BK01776397",
+   "bidNtceOrd": "000",
+   "bidNtceNm": "익산역 중심 복합거점(환승, 주거, 상업, 산업) 조성 기본구상 및 타당성 조사 용역",
+   "ntceKindNm": "등록공고",
+   "ntceInsttNm": "전북특별자치도 익산시",
+   "dminsttNm": "전북특별자치도 익산시",
+   "bidNtceDt": "2026-10-16 18:35:02",
+   "rgstDt": "2026-10-16 18:35:02",
+   "bidClseDt": "2026-11-06 17:00:00",
+   "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01776397&bidPbancOrd=000",
+   "bidNtceUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01776397&bidPbancOrd=000",
+   "asignBdgtAmt": "500000000",
+   "presmptPrce": "454545455",
+   "_first_seen": "2026-10-17"
+  },
   {
    "bidNtceNo": "R26BK01775986",
    "bidNtceOrd": "000",
@@ -10212,22 +10244,6 @@
    "asignBdgtAmt": "302590000",
    "presmptPrce": "272727273",
    "_first_seen": "2026-09-28"
-  },
-  {
-   "bidNtceNo": "R26BK01744707",
-   "bidNtceOrd": "000",
-   "bidNtceNm": "2026년 한국생명공학연구원 대전본원 보건관리 컨설팅 용역",
-   "ntceKindNm": "등록공고",
-   "ntceInsttNm": "한국생명공학연구원",
-   "dminsttNm": "한국생명공학연구원",
-   "bidNtceDt": "2026-09-26 17:35:35",
-   "rgstDt": "2026-09-26 17:35:35",
-   "bidClseDt": "2026-10-06 10:00:00",
-   "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01744707&bidPbancOrd=000",
-   "bidNtceUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01744707&bidPbancOrd=000",
-   "asignBdgtAmt": "42675999",
-   "presmptPrce": "38796363",
-   "_first_seen": "2026-09-27"
   }
  ]
 }
