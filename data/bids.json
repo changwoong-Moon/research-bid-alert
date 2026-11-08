@@ -1,13 +1,45 @@
 {
  "meta": {
-  "last_attempt": "2026-11-08T16:13:54+09:00",
-  "last_success": "2026-11-08T16:13:54+09:00",
+  "last_attempt": "2026-11-08T20:14:54+09:00",
+  "last_success": "2026-11-08T20:14:54+09:00",
   "last_attempt_ok": true,
   "last_error": "",
-  "fetch_window": "2026-11-05 00:00 ~ 2026-11-08 16:13",
+  "fetch_window": "2026-11-05 00:00 ~ 2026-11-08 20:14",
   "last_error_at": "2026-11-01T11:07:50+09:00"
  },
  "items": [
+  {
+   "bidNtceNo": "R26BK01816323",
+   "bidNtceOrd": "000",
+   "bidNtceNm": "영천 은퇴자마을 조성사업 기본계획 및 타당성조사용역",
+   "ntceKindNm": "등록공고",
+   "ntceInsttNm": "경상북도 영천시",
+   "dminsttNm": "경상북도 영천시",
+   "bidNtceDt": "2026-11-08 19:54:59",
+   "rgstDt": "2026-11-08 19:54:59",
+   "bidClseDt": "2026-11-17 10:00:00",
+   "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01816323&bidPbancOrd=000",
+   "bidNtceUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01816323&bidPbancOrd=000",
+   "asignBdgtAmt": "200000000",
+   "presmptPrce": "181818182",
+   "_first_seen": "2026-11-08"
+  },
+  {
+   "bidNtceNo": "R26BK01816288",
+   "bidNtceOrd": "000",
+   "bidNtceNm": "고경저수지 주변 개발사업 기본구상 연구용역",
+   "ntceKindNm": "등록공고",
+   "ntceInsttNm": "경상북도 영천시",
+   "dminsttNm": "경상북도 영천시",
+   "bidNtceDt": "2026-11-08 16:18:38",
+   "rgstDt": "2026-11-08 16:18:38",
+   "bidClseDt": "2026-11-13 10:00:00",
+   "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01816288&bidPbancOrd=000",
+   "bidNtceUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01816288&bidPbancOrd=000",
+   "asignBdgtAmt": "46000000",
+   "presmptPrce": "41818182",
+   "_first_seen": "2026-11-08"
+  },
   {
    "bidNtceNo": "R26BK01815956",
    "bidNtceOrd": "000",
