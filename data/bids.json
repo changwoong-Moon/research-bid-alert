@@ -1,11 +1,11 @@
 {
  "meta": {
-  "last_attempt": "2026-11-09T11:36:20+09:00",
+  "last_attempt": "2026-11-09T16:53:06+09:00",
   "last_success": "2026-11-09T11:36:20+09:00",
-  "last_attempt_ok": true,
-  "last_error": "",
+  "last_attempt_ok": false,
+  "last_error": "[게이트웨이 오류 04] HTTP 에러 — 공공데이터포털 오류코드표를 확인하세요.",
   "fetch_window": "2026-11-06 00:00 ~ 2026-11-09 11:36",
-  "last_error_at": "2026-11-01T11:07:50+09:00"
+  "last_error_at": "2026-11-09T16:53:06+09:00"
  },
  "items": [
   {
