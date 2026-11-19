@@ -1,13 +1,60 @@
 {
  "meta": {
-  "last_attempt": "2026-11-19T17:41:16+09:00",
-  "last_success": "2026-11-19T17:41:16+09:00",
+  "last_attempt": "2026-11-19T21:58:44+09:00",
+  "last_success": "2026-11-19T21:58:44+09:00",
   "last_attempt_ok": true,
   "last_error": "",
-  "fetch_window": "2026-11-16 00:00 ~ 2026-11-19 17:41",
+  "fetch_window": "2026-11-16 00:00 ~ 2026-11-19 21:58",
   "last_error_at": "2026-11-09T16:53:06+09:00"
  },
  "items": [
+  {
+   "bidNtceNo": "R26BK01843646",
+   "bidNtceOrd": "000",
+   "bidNtceNm": "국가 희귀암 정밀의료 연구개발사업 기획연구 ",
+   "ntceKindNm": "등록공고",
+   "ntceInsttNm": "국립암센터",
+   "dminsttNm": "국립암센터",
+   "bidNtceDt": "2026-11-19 20:38:10",
+   "rgstDt": "2026-11-19 20:38:10",
+   "bidClseDt": "2026-11-30 10:00:00",
+   "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01843646&bidPbancOrd=000",
+   "bidNtceUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01843646&bidPbancOrd=000",
+   "asignBdgtAmt": "50000000",
+   "presmptPrce": "45454545",
+   "_first_seen": "2026-11-19"
+  },
+  {
+   "bidNtceNo": "R26BK01843579",
+   "bidNtceOrd": "000",
+   "bidNtceNm": "당진시 군부대 이전 타당성 검토용역 입찰 공고(협상에의한계약)",
+   "ntceKindNm": "등록공고",
+   "ntceInsttNm": "충청남도 당진시",
+   "dminsttNm": "충청남도 당진시",
+   "bidNtceDt": "2026-11-19 20:01:16",
+   "rgstDt": "2026-11-19 20:01:16",
+   "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01843579&bidPbancOrd=000",
+   "bidNtceUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01843579&bidPbancOrd=000",
+   "asignBdgtAmt": "200000000",
+   "presmptPrce": "181818182",
+   "_first_seen": "2026-11-19"
+  },
+  {
+   "bidNtceNo": "R26BK01843324",
+   "bidNtceOrd": "000",
+   "bidNtceNm": "2026년 광역지자체 청년정책 추진실적 평가 연구",
+   "ntceKindNm": "재공고",
+   "ntceInsttNm": "국무조정실",
+   "dminsttNm": "국무조정실",
+   "bidNtceDt": "2026-11-19 17:56:20",
+   "rgstDt": "2026-11-19 17:56:20",
+   "bidClseDt": "2026-12-01 14:00:00",
+   "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01843324&bidPbancOrd=000",
+   "bidNtceUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01843324&bidPbancOrd=000",
+   "asignBdgtAmt": "100000000",
+   "presmptPrce": "90909091",
+   "_first_seen": "2026-11-19"
+  },
   {
    "bidNtceNo": "R26BK01843171",
    "bidNtceOrd": "000",
@@ -22,6 +69,22 @@
    "bidNtceUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01843171&bidPbancOrd=000",
    "asignBdgtAmt": "110000000",
    "presmptPrce": "100000000",
+   "_first_seen": "2026-11-19"
+  },
+  {
+   "bidNtceNo": "R26BK01843166",
+   "bidNtceOrd": "000",
+   "bidNtceNm": "「우리가 꿈꾸는 서울, 서울의 주택정책을 고민하다(가제) -서울시 주택정책의 현주소와 미래 과제-」 정책연구",
+   "ntceKindNm": "등록공고",
+   "ntceInsttNm": "서울특별시 의회사무처",
+   "dminsttNm": "서울특별시 의회사무처",
+   "bidNtceDt": "2026-11-19 17:42:43",
+   "rgstDt": "2026-11-19 17:42:43",
+   "bidClseDt": "2026-11-30 15:00:00",
+   "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01843166&bidPbancOrd=000",
+   "bidNtceUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01843166&bidPbancOrd=000",
+   "asignBdgtAmt": "51500000",
+   "presmptPrce": "46818182",
    "_first_seen": "2026-11-19"
   },
   {
