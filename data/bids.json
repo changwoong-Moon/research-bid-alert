@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_attempt": "2026-11-21T21:35:42+09:00",
-  "last_success": "2026-11-21T21:35:42+09:00",
+  "last_attempt": "2026-11-22T12:01:50+09:00",
+  "last_success": "2026-11-22T12:01:50+09:00",
   "last_attempt_ok": true,
   "last_error": "",
-  "fetch_window": "2026-11-18 00:00 ~ 2026-11-21 21:35",
+  "fetch_window": "2026-11-19 00:00 ~ 2026-11-22 12:01",
   "last_error_at": "2026-11-09T16:53:06+09:00"
  },
  "items": [
@@ -11957,22 +11957,6 @@
    "asignBdgtAmt": "99220000",
    "presmptPrce": "90200000",
    "_first_seen": "2026-10-26"
-  },
-  {
-   "bidNtceNo": "R26BK01802386",
-   "bidNtceOrd": "000",
-   "bidNtceNm": "2026 스마트 생태공장 구축사업_컨설팅_현대힘스(주)냉천1공장",
-   "ntceKindNm": "등록공고",
-   "ntceInsttNm": "현대힘스(주) 냉천1공장",
-   "dminsttNm": "현대힘스(주) 냉천1공장",
-   "bidNtceDt": "2026-11-01 22:43:55",
-   "rgstDt": "2026-11-01 22:43:55",
-   "bidClseDt": "2026-11-09 10:00:00",
-   "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01802386&bidPbancOrd=000",
-   "bidNtceUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01802386&bidPbancOrd=000",
-   "asignBdgtAmt": "22000000",
-   "presmptPrce": "20000000",
-   "_first_seen": "2026-11-02"
   }
  ]
 }
