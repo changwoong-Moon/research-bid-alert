@@ -1,13 +1,29 @@
 {
  "meta": {
-  "last_attempt": "2026-11-24T19:50:42+09:00",
-  "last_success": "2026-11-24T19:50:42+09:00",
+  "last_attempt": "2026-11-24T23:49:36+09:00",
+  "last_success": "2026-11-24T23:49:36+09:00",
   "last_attempt_ok": true,
   "last_error": "",
-  "fetch_window": "2026-11-21 00:00 ~ 2026-11-24 19:50",
+  "fetch_window": "2026-11-21 00:00 ~ 2026-11-24 23:49",
   "last_error_at": "2026-11-09T16:53:06+09:00"
  },
  "items": [
+  {
+   "bidNtceNo": "R26BK01853967",
+   "bidNtceOrd": "000",
+   "bidNtceNm": "[긴급]공동주택 재정비 컨설팅 용역(럭키, 토평한일아파트)",
+   "ntceKindNm": "등록공고",
+   "ntceInsttNm": "경기도 구리시",
+   "dminsttNm": "경기도 구리시",
+   "bidNtceDt": "2026-11-24 20:44:55",
+   "rgstDt": "2026-11-24 20:44:55",
+   "bidClseDt": "2026-11-30 12:00:00",
+   "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01853967&bidPbancOrd=000",
+   "bidNtceUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01853967&bidPbancOrd=000",
+   "asignBdgtAmt": "193875000",
+   "presmptPrce": "176250000",
+   "_first_seen": "2026-11-24"
+  },
   {
    "bidNtceNo": "R26BK01853788",
    "bidNtceOrd": "000",
@@ -54,6 +70,22 @@
    "bidNtceUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01853582&bidPbancOrd=000",
    "asignBdgtAmt": "11400000",
    "presmptPrce": "10363636",
+   "_first_seen": "2026-11-24"
+  },
+  {
+   "bidNtceNo": "R26BK01853255",
+   "bidNtceOrd": "000",
+   "bidNtceNm": "안양산업진흥원 내부규정 정비 연구용역",
+   "ntceKindNm": "등록공고",
+   "ntceInsttNm": "재단법인안양산업진흥원",
+   "dminsttNm": "재단법인안양산업진흥원",
+   "bidNtceDt": "2026-11-24 19:59:10",
+   "rgstDt": "2026-11-24 19:59:10",
+   "bidClseDt": "2026-12-08 17:00:00",
+   "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01853255&bidPbancOrd=000",
+   "bidNtceUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01853255&bidPbancOrd=000",
+   "asignBdgtAmt": "55000000",
+   "presmptPrce": "50000000",
    "_first_seen": "2026-11-24"
   },
   {
